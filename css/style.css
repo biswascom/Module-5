@@ -76,3 +76,57 @@ nav ul li {
     font-size: 18px;
     color: #757575;
 }
+
+/* main area */
+
+main {
+    max-width: 1140px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* about section */
+
+.about {
+    padding: 130px 155px;
+    margin: 130px 0;
+    background: #FFF8F3;
+}
+
+.section-title {
+
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+}
+
+.section-description {
+    font-size: 18px;
+    color: #757575;
+    margin-bottom: 30px;
+}
+
+.about-info {
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-header {
+    font-size: 20px;
+    color: #757575;
+}
+
+.about-description {
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+}
+
+/* what i do */
+
+.what-i-do {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 155px;
+}
