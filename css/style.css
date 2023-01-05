@@ -1,6 +1,7 @@
 * {
     margin: 0;
     font-family: 'Open Sans', sans-serif;
+    background: ;
 }
 
 .text-primary {
@@ -129,4 +130,38 @@ main {
     max-width: 1140px;
     margin: 0 auto;
     padding: 0 155px;
+}
+
+/* what i do skill */
+
+.skill-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.skill {
+    margin: 15px;
+    padding: 15px;
+    background-color: #FFFFFF;
+    box-shadow: 0 1px 1px 0 gray;
+}
+
+.what-i-do-title {
+    font-weight: 700;
+    font-size: 15px;
+    color: #181818;
+    margin: 30px 0;
+    text-align: left;
+}
+
+.what-i-do-description {
+    font-size: 16px;
+    font-weight: 400;
+    color: #757575;
+    text-align: left;
+}
+
+.skill-container .skill img {
+    margin: 18px 0;
+    display: block;
 }
