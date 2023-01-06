@@ -8,9 +8,16 @@
     color: #FD6E0A;
 }
 
-.btn-primary {
-    height: 64px;
+.btn-background {
     background: #FD6E0A;
+}
+
+.btn-color {
+    background: #FD6E0A;
+}
+
+.btn-primary {
+    height: 40px;
     border-radius: 5px;
     border: 0;
     font-weight: 700;
@@ -49,11 +56,18 @@ nav ul li {
     padding-right: 50px;
 }
 
+.contact {
+    border: 1px solid #FD6E0A;
+    color: #FD6E0A;
+    margin-left: 10px;
+}
+
 /* Banner area */
 
 .banner {
     display: flex;
     justify-content: space-between;
+    gap: 50px;
     align-items: center;
     padding: 0 200px;
 }
@@ -76,6 +90,10 @@ nav ul li {
     margin-bottom: 30px;
     font-size: 18px;
     color: #757575;
+}
+
+.profile-img {
+    margin-right: -80px;
 }
 
 /* main area */
@@ -211,4 +229,45 @@ main {
 
 hr {
     margin: 50px 0;
+}
+
+.download-cv-button {
+    margin: 50px 0;
+}
+
+/* footer section */
+
+footer {
+    background: #FFF8F3;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 130px 200px;
+}
+
+.footer-title {
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 18px;
+}
+
+.footer-description {
+    font-size: 14px;
+    color: #474747;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+.copyright {
+    text-align: center;
+    padding-bottom: 30px;
 }
