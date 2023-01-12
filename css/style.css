@@ -271,3 +271,84 @@ input, textarea {
     text-align: center;
     padding-bottom: 30px;
 }
+
+/* Media Query for Responsive */
+
+@media screen and (max-width: 576px) {
+    .header {
+        background-image:none;
+        padding: 0;
+    }
+
+    nav {
+        padding: 0 0;
+        flex-direction: column;
+    }
+
+    .nav-title {
+        margin: 20px 15px;
+    }
+    
+    nav ul {
+        margin: 20px 10px;
+    }
+
+    .contact {
+        margin-left: 0;
+    }
+
+    .banner {
+        flex-direction: column;
+        gap: 50px;
+        align-items: center;
+        padding: 15px 20px;
+    }
+
+    .profile-img {
+        margin-right: 0;
+    }
+
+    .about {
+        padding: 0;
+        margin: 50px 0;
+    }
+
+    .about-info {
+        flex-direction: column;
+    }
+
+    .about-info > div {
+        margin-bottom: 20px;
+    }
+
+    .what-i-do {
+        margin: -20px auto;
+        padding: 0 10px;
+    }
+
+    .skill-container {
+        flex-direction: column;
+    }
+
+    .section-title {
+        margin: 30px 0;
+    }
+
+    .summary {
+        padding: 0;
+    }
+
+    .summary-container {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        padding: 10px;
+    }
+
+    input, textarea {
+        width: 95%;
+    }
+}
